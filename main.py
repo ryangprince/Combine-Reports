@@ -1,7 +1,7 @@
 import pandas as pd
 
-df1_original = pd.read_csv('Hills Pet - 2022 PD Handraiser.csv')
-df3_original = pd.read_csv('1381146_Hills_Pet_-_2022_PD_Handraiser_20221001_031153_3858949580.csv')
+df1_original = pd.read_csv('./Projects/Hills Pet - 2022 PD Handraiser.csv')
+df3_original = pd.read_csv('./Projects/1381146_Hills_Pet_-_2022_PD_Handraiser_20221001_031153_3858949580.csv')
 
 # filter data by two conditions
 # print(df1.loc[(df1['Placement'] == 'P1W6PT2_HLN_PD_018_Content - Custom_CLUEP_Derm Cat 300x250_Run of Network_Demo_P25+_300 x 250_Standard_Other_NA') & (df1['Total Cost'] > )])
